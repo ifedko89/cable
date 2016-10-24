@@ -13,16 +13,28 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object DBGrid1: TDBGrid
+  object cxDBPivotGrid1: TcxDBPivotGrid
     Left = 24
     Top = 24
-    Width = 320
-    Height = 120
+    Width = 300
+    Height = 250
+    Groups = <>
     TabOrder = 0
-    TitleFont.Charset = DEFAULT_CHARSET
-    TitleFont.Color = clWindowText
-    TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
-    TitleFont.Style = []
+  end
+  object cxGrid1: TcxGrid
+    Left = 330
+    Top = 24
+    Width = 250
+    Height = 200
+    TabOrder = 1
+    object cxGrid1DBTableView1: TcxGridDBTableView
+      Navigator.Buttons.CustomButtons = <>
+      DataController.Summary.DefaultGroupSummaryItems = <>
+      DataController.Summary.FooterSummaryItems = <>
+      DataController.Summary.SummaryGroups = <>
+    end
+    object cxGrid1Level1: TcxGridLevel
+      GridView = cxGrid1DBTableView1
+    end
   end
 end

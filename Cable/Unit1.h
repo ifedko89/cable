@@ -57,8 +57,12 @@ __published:	// IDE-managed Components
 	TLabel *Label3;
 	TcxDBTextEdit *cxDBTextEdit3;
 	TDBNavigator *DBNavigator1;
-	TComboBox *ComboBox1;
 	TDataSource *DataSource3;
+	TADOQuery *ADOQuery1;
+	TDBLookupComboBox *DBLookupComboBox1;
+	TButton *Button1;
+	TLabel *Label4;
+	void __fastcall Button1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);

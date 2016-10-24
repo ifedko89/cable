@@ -19,11 +19,12 @@
 			<Base>true</Base>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Base)'!=''">
+			<OutputExt>exe</OutputExt>
 			<ProjectType>CppVCLApplication</ProjectType>
-			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;vcldb.bpi;adortl.bpi;cxLibraryRS14.bpi;dxGDIPlusRS14.bpi;dxCoreRS14.bpi;dxThemeRS14.bpi;vclx.bpi;cxEditorsRS14.bpi;cxDataRS14.bpi;vclimg.bpi;dxSkinsCoreRS14.bpi</LinkPackageImports>
+			<LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;vcldb.bpi;adortl.bpi;cxLibraryRS14.bpi;dxGDIPlusRS14.bpi;dxCoreRS14.bpi;dxThemeRS14.bpi;vclx.bpi;cxEditorsRS14.bpi;cxDataRS14.bpi;vclimg.bpi;dxSkinsCoreRS14.bpi;cxGridRS14.bpi;dxLayoutControlRS14.bpi;cxPageControlRS14.bpi;dxComnRS14.bpi;cxExportRS14.bpi;xmlrtl.bpi;dxServerModeRS14.bpi;cxPivotGridRS14.bpi;dxmdsRS14.bpi;dxSkinscxPCPainterRS14.bpi</LinkPackageImports>
 			<PackageImports>vcl.bpi;rtl.bpi;bcbie.bpi;vclx.bpi;dbrtl.bpi;vcldb.bpi;bdertl.bpi;vclimg.bpi;vclactnband.bpi;adortl.bpi;xmlrtl.bpi;bcbsmp.bpi;vcldbx.bpi;dbexpress.bpi;DbxCommonDriver.bpi;DataSnapIndy10ServerTransport.bpi;DataSnapProviderClient.bpi;vclie.bpi;inet.bpi;dsnap.bpi;inetdb.bpi;IndySystem.bpi;IndyCore.bpi;IndyProtocols.bpi;DbxClientDriver.bpi;inetdbxpress.bpi;inetdbbde.bpi;DataSnapServer.bpi;dbxcds.bpi;DBXInterBaseDriver.bpi;DBXMySQLDriver.bpi;DBXFirebirdDriver.bpi;DBXSybaseASEDriver.bpi;DBXSybaseASADriver.bpi;DBXOracleDriver.bpi;DBXMSSQLDriver.bpi;DBXInformixDriver.bpi;DBXDb2Driver.bpi;vclib.bpi;ibxpress.bpi;intrawebdb_100_140.bpi;Intraweb_100_140.bpi;dsnapcon.bpi;vclribbon.bpi;soaprtl.bpi;TeeUI.bpi;TeeDB.bpi;Tee.bpi;vcltouch.bpi;webdsnap.bpi;websnap.bpi;dxCoreRS14.bpi;cxLibraryRS14.bpi;dxGDIPlusRS14.bpi;dxThemeRS14.bpi;cxBarEditItemRS14.bpi;dxBarRS14.bpi;dxComnRS14.bpi;cxEditorsRS14.bpi;cxDataRS14.bpi;cxGridRS14.bpi;cxPageControlRS14.bpi;cxExportRS14.bpi;dxServerModeRS14.bpi;cxPageControldxBarPopupMenuRS14.bpi;cxPivotGridChartRS14.bpi;cxPivotGridRS14.bpi;dxmdsRS14.bpi;cxPivotGridOLAPRS14.bpi;cxSchedulerGridRS14.bpi;cxSchedulerRS14.bpi;cxSpreadSheetRS14.bpi;cxTreeListdxBarPopupMenuRS14.bpi;cxTreeListRS14.bpi;cxVerticalGridRS14.bpi;dxADOServerModeRS14.bpi;dxBarDBNavRS14.bpi;dxBarExtDBItemsRS14.bpi;dxBarExtItemsRS14.bpi;dxorgcRS14.bpi;dxdborRS14.bpi;dxdbtrRS14.bpi;dxDBXServerModeRS14.bpi;dxDockingRS14.bpi;dxFlowChartRS14.bpi;dxLayoutControlRS14.bpi;dxNavBarRS14.bpi;dxPSCoreRS14.bpi;dxPScxCommonRS14.bpi;dxPSLnksRS14.bpi;dxPScxExtCommonRS14.bpi;dxPScxGridLnkRS14.bpi;dxPSdxLCLnkRS14.bpi;dxPScxPivotGridLnkRS14.bpi;dxPScxSchedulerLnkRS14.bpi;dxPScxSSLnkRS14.bpi;dxPScxTLLnkRS14.bpi;dxPScxVGridLnkRS14.bpi;dxPSDBTeeChartRS14.bpi;dxPSTeeChartRS14.bpi;dxPSdxDBOCLnkRS14.bpi;dxPSdxOCLnkRS14.bpi;dxPSdxDBTVLnkRS14.bpi;dxPSdxFCLnkRS14.bpi;dxPsPrVwAdvRS14.bpi;dxPSPrVwRibbonRS14.bpi;dxRibbonRS14.bpi;dcldxSkinsCoreRS14.bpi;dxSkinsCoreRS14.bpi;dxSkinscxPCPainterRS14.bpi;dxSkinscxSchedulerPainterRS14.bpi;dxSkinsdxDLPainterRS14.bpi;dxSkinsdxBarPainterRS14.bpi;dxSkinsdxNavBarPainterRS14.bpi;dxSpellCheckerRS14.bpi;dxTabbedMDIRS14.bpi;dxTileControlRS14.bpi;dxtrmdRS14.bpi;dxPScxPCProdRS14.bpi;dxSkinsdxRibbonPainterRS14.bpi;frx14.bpi;frxADO14.bpi;frxBDE14.bpi;frxcs14.bpi;frxDB14.bpi;frxDBX14.bpi;frxe14.bpi;frxIBX14.bpi;frxTee14.bpi;fs14.bpi;fsADO14.bpi;fsBDE14.bpi;fsDB14.bpi;fsIBX14.bpi;fsTee14.bpi;VclSmp.bpi;Rave77VCL.bpi</PackageImports>
 			<Multithreaded>true</Multithreaded>
-			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;adortl.lib;cxLibraryRS14.lib;dxGDIPlusRS14.lib;dxCoreRS14.lib;dxThemeRS14.lib;vclx.lib;cxEditorsRS14.lib;cxDataRS14.lib;vclimg.lib;dxSkinsCoreRS14.lib</AllPackageLibs>
+			<AllPackageLibs>rtl.lib;vcl.lib;dbrtl.lib;vcldb.lib;adortl.lib;cxLibraryRS14.lib;dxGDIPlusRS14.lib;dxCoreRS14.lib;dxThemeRS14.lib;vclx.lib;cxEditorsRS14.lib;cxDataRS14.lib;vclimg.lib;dxSkinsCoreRS14.lib;cxGridRS14.lib;dxLayoutControlRS14.lib;cxPageControlRS14.lib;dxComnRS14.lib;cxExportRS14.lib;xmlrtl.lib;dxServerModeRS14.lib;cxPivotGridRS14.lib;dxmdsRS14.lib;dxSkinscxPCPainterRS14.lib</AllPackageLibs>
 			<UsePackages>true</UsePackages>
 			<DynamicRTL>true</DynamicRTL>
 			<DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
@@ -58,12 +59,6 @@
 			<TASM_Debugging>None</TASM_Debugging>
 		</PropertyGroup>
 		<ItemGroup>
-			<CppCompile Include="Project1.cpp">
-				<BuildOrder>0</BuildOrder>
-			</CppCompile>
-			<ResFiles Include="Project1.res">
-				<BuildOrder>1</BuildOrder>
-			</ResFiles>
 			<CppCompile Include="Unit1.cpp">
 				<Form>Form1</Form>
 				<DependentOn>Unit1.h</DependentOn>
@@ -74,6 +69,12 @@
 				<DependentOn>Unit2.h</DependentOn>
 				<BuildOrder>3</BuildOrder>
 			</CppCompile>
+			<CppCompile Include="Project1.cpp">
+				<BuildOrder>0</BuildOrder>
+			</CppCompile>
+			<ResFiles Include="Project1.res">
+				<BuildOrder>1</BuildOrder>
+			</ResFiles>
 			<FormResources Include="Unit1.dfm"/>
 			<FormResources Include="Unit2.dfm"/>
 			<BuildConfiguration Include="Base">
