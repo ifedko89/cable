@@ -113,7 +113,7 @@ object Form1: TForm1
     TabOrder = 6
   end
   object Button1: TButton
-    Left = 303
+    Left = 463
     Top = 8
     Width = 97
     Height = 25
